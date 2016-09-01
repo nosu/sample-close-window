@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <a href="#" onclick="window.close();">シンプルに閉じる</a><br><br>
+  <a href="#" onclick="window.open('about:blank', '_self').close();">ハック版</a><br><br>
+  <a href="#" onClick="if (/Chrome/i.test(navigator.userAgent)) { window.close(); } else { window.open('about:blank', '_self').close(); }">Chrome自動判定で閉じる</a>
+</body>
+</html>
